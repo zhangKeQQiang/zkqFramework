@@ -337,6 +337,7 @@
 				);
 				LINK_WITH_STANDARD_LIBRARIES = NO;
 				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0.0;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vviseTech.zkqFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -372,6 +373,7 @@
 				);
 				LINK_WITH_STANDARD_LIBRARIES = NO;
 				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0.0;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vviseTech.zkqFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
