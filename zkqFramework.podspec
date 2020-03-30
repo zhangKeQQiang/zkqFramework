@@ -17,15 +17,14 @@ Pod::Spec.new do |spec|
 
   spec.name         = "zkqFramework"
   spec.version      = "1.0.0"
-  spec.summary      = "A short description of zkqFramework."
+  spec.summary      = "zkqFramework.sdk"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  spec.description  = "vvise locationServe"
 
   spec.homepage     = "https://github.com/zhangKeQQiang/zkqFramework.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -52,7 +51,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "zhangkeqiang" => "527956348@qq.com" }
+  spec.author             = { "zhangKeQQiang" => "527956348@qq.com" }
   # Or just: spec.author    = "mjq"
   # spec.authors            = { "mjq" => "wangjunqi@vvise.com" }
   # spec.social_media_url   = "https://twitter.com/mjq"
@@ -66,7 +65,7 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios
   # spec.platform     = :ios, "9.0"
 
-  #  When using multiple platforms
+  # When using multiple platforms
   # spec.ios.deployment_target = "5.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
@@ -91,7 +90,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "zkqFramework", "zkqFramework.framework/Headers/*.{h}"
-  spec.exclude_files = ""
+  spec.exclude_files = "Info.plist"
 
   # spec.public_header_files = "Classes/**/*.h"
 
